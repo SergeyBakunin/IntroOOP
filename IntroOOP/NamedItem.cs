@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace IntroOOP
 {
-    public class StudentsGroup : NamedItem
+    public class NamedItem
     {
-        public List<Student> Students { get; set; } = new List<Student>();
 
+        public int Id { get; set; }
+        public string Name { get; set; }
+      
     }
 }
