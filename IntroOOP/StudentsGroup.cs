@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace IntroOOP
 {
-    internal class Program
+    public class StudentsGroup : NamedItem
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        public List<Student> Students { get; set; } = new List<Student>();
+
     }
 }

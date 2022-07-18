@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace IntroOOP
 {
-    internal class Program
+    public class NamedItem
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+
+        public int Id { get; set; }
+        public string Name { get; set; }
+      
     }
 }
